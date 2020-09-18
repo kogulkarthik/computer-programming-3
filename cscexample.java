@@ -26,5 +26,15 @@ public String getText(){
 		return text;
 
 }
+
+void addQuestion(CscExample qu)
+{
+questionNo=questionNo +qu;
+}
+void removeQuestion(CscExample re)
+{
+  questionNo=questionNo -re;
+}
+
 	}
 
